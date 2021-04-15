@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="exercise_tracker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>exercise_tracker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="exercisetracker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="exercise_tracker:war exploded" />
+    </root>
+  </artifact>
+</component>
